@@ -231,7 +231,7 @@ const Logistics = () => {
       company: 'Nwosu Electronics',
       content: 'Outstanding service quality and reliability. Their express delivery service has enabled us to offer same-day delivery to our customers in Lagos and Abuja. The real-time tracking system gives us complete visibility of our shipments.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face'
     }
   ];
 
