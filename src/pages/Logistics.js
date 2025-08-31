@@ -111,7 +111,7 @@ const Logistics = () => {
         { icon: FaShieldAlt, text: 'Insurance coverage included' }
       ],
       pricing: 'From ₦2,500',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop'
     },
     {
       icon: FaWarehouse,
@@ -125,7 +125,7 @@ const Logistics = () => {
         { icon: FaBarcode, text: 'Automated inventory system' }
       ],
       pricing: 'From ₦500/m²/month',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&h=400&fit=crop'
     },
     {
       icon: FaBoxes,

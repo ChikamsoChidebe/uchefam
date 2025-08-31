@@ -75,32 +75,32 @@ const About = () => {
       name: 'Chidera Uche',
       role: 'Logistics Manager',
       description: 'Leading our logistics operations with precision and dedication to timely deliveries.',
-      image: '/api/placeholder/300/300'
+      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&fit=crop&crop=face'
     },
     {
       name: 'Chinonso Uche',
       role: 'Printing Services Manager',
       description: 'Ensuring quality printing solutions that bring your ideas to life with professional excellence.',
-      image: '/api/placeholder/300/300'
+      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&h=300&fit=crop&crop=face'
     },
     {
       name: 'Uzoma Uche',
       role: 'Beauty Supply Manager',
       description: 'Curating the finest beauty products to help our clients look and feel their absolute best.',
-      image: '/api/placeholder/300/300'
+      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face'
     },
     {
       name: 'Daniel Uche',
       role: 'Events Manager',
       description: 'Creating memorable experiences through expertly planned and executed events.',
-      image: '/api/placeholder/300/300'
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face'
     }
   ];
 
   return (
     <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-gradient-to-br from-gray-50 to-blue-50">
       {/* Hero Section */}
-      <section className="relative py-20 md:py-24 min-h-screen md:min-h-[110vh] bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 overflow-hidden pt-4 md:pt-0">
+      <section className="relative py-16 md:py-20 min-h-[60vh] md:min-h-[70vh] bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 overflow-hidden pt-4 md:pt-0">
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0">
           {[...Array(50)].map((_, i) => (
@@ -123,23 +123,25 @@ const About = () => {
             />
           ))}
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-5xl md:text-6xl font-bold text-white mb-6"
-          >
-            About Uche Group
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl text-gray-200 max-w-3xl mx-auto"
-          >
-            A family business built on trust, innovation, and excellence. Serving communities across Nigeria with integrity and dedication.
-          </motion.p>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex items-center justify-center min-h-[50vh]">
+          <div className="w-full">
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 px-4"
+            >
+              About Uche Group
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto px-4"
+            >
+              A family business built on trust, innovation, and excellence. Serving communities across Nigeria with integrity and dedication.
+            </motion.p>
+          </div>
         </div>
       </section>
 

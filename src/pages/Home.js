@@ -268,7 +268,7 @@ const Home = () => {
       company: 'Adebayo Medical Centers',
       content: 'Uche Logistics has revolutionized our medical supply chain. Their precision, reliability, and commitment to excellence have enabled us to serve our patients better while reducing operational costs by 35%. They are not just service providers; they are strategic partners in our mission to deliver world-class healthcare.',
       rating: 5,
-      image: '/api/placeholder/80/80',
+      image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=80&h=80&fit=crop&crop=face',
       location: 'Lagos, Nigeria',
       partnership: '3 Years'
     },
@@ -278,7 +278,7 @@ const Home = () => {
       company: 'Okonkwo Fashion House',
       content: 'The custom printing quality from Uche Group is absolutely phenomenal. They transformed our brand identity with stunning merchandise that our customers love. Sales increased by 60% after launching our new branded collection. Their attention to detail and creative expertise is unmatched in the industry.',
       rating: 5,
-      image: '/api/placeholder/80/80',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face',
       location: 'Abuja, Nigeria',
       partnership: '2 Years'
     },
@@ -288,7 +288,7 @@ const Home = () => {
       company: 'Beauty Empress Stores',
       content: 'Uche Beauty Supply has been instrumental in our expansion across Nigeria. Their premium products, competitive pricing, and exceptional customer service have helped us build a loyal customer base. Our revenue has tripled since partnering with them. They truly understand the beauty industry.',
       rating: 5,
-      image: '/api/placeholder/80/80',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&h=80&fit=crop&crop=face',
       location: 'Port Harcourt, Nigeria',
       partnership: '4 Years'
     },
@@ -298,7 +298,7 @@ const Home = () => {
       company: 'Okoro Foundation',
       content: 'Uche Events managed our international charity gala with over 500 distinguished guests. The event was flawlessly executed, raising over ₦50 million for our cause. Their professionalism, creativity, and attention to detail made it the most successful fundraising event in our foundation\'s history.',
       rating: 5,
-      image: '/api/placeholder/80/80',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face',
       location: 'Abuja, Nigeria',
       partnership: '1 Year'
     }

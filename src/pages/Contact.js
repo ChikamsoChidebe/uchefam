@@ -78,7 +78,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-gradient-to-br from-gray-50 to-blue-50">
       {/* Hero Section */}
-      <section className="relative py-20 md:py-24 min-h-screen md:min-h-[110vh] bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 overflow-hidden pt-4 md:pt-0">
+      <section className="relative py-16 md:py-20 min-h-[60vh] md:min-h-[70vh] bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 overflow-hidden pt-4 md:pt-0">
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0">
           {[...Array(50)].map((_, i) => (
@@ -101,23 +101,25 @@ const Contact = () => {
             />
           ))}
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-5xl md:text-6xl font-bold text-white mb-6"
-          >
-            Contact Us
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl text-gray-200 max-w-3xl mx-auto"
-          >
-            Get in touch with the Uche Group family. We're here to help you with all your business needs.
-          </motion.p>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex items-center justify-center min-h-[50vh]">
+          <div className="w-full">
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 px-4"
+            >
+              Contact Us
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto px-4"
+            >
+              Get in touch with the Uche Group family. We're here to help you with all your business needs.
+            </motion.p>
+          </div>
         </div>
       </section>
 
