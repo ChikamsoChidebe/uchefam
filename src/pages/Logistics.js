@@ -139,7 +139,7 @@ const Logistics = () => {
         { icon: FaBullseye, text: 'Stock optimization' }
       ],
       pricing: 'Custom pricing',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&h=400&fit=crop'
     },
     {
       icon: FaHeadset,
