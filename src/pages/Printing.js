@@ -109,7 +109,7 @@ const Printing = () => {
       ],
       products: ['T-Shirts', 'Hoodies', 'Polo Shirts', 'Caps', 'Uniforms', 'Jackets'],
       pricing: 'From ₦2,500',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1503602642458-232111445657?w=600&h=400&fit=crop'
     },
     {
       icon: FaGift,
@@ -124,7 +124,7 @@ const Printing = () => {
       ],
       products: ['Mugs', 'Keychains', 'Photo Frames', 'Calendars', 'Notebooks', 'Awards'],
       pricing: 'From ₦1,500',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&h=400&fit=crop'
     },
     {
       icon: FaBuilding,
@@ -139,7 +139,7 @@ const Printing = () => {
       ],
       products: ['Business Cards', 'Letterheads', 'Banners', 'Brochures', 'Signage', 'Displays'],
       pricing: 'Custom pricing',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=400&fit=crop'
     }
   ];
 
@@ -201,7 +201,7 @@ const Printing = () => {
       company: 'Bakare Fashion House',
       content: 'Uche Custom Prints transformed our brand identity with exceptional quality merchandise. The attention to detail and creative expertise resulted in a 70% increase in brand recognition. Their team understands fashion and delivers beyond expectations.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&h=80&fit=crop&crop=face'
     },
     {
       name: 'Dr. Kemi Adeleke',
@@ -209,7 +209,7 @@ const Printing = () => {
       company: 'Adeleke Medical Conference',
       content: 'Outstanding service for our annual medical conference. They produced 500 custom t-shirts, branded materials, and souvenirs with perfect precision. The quality exceeded our expectations and impressed all our international delegates.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=80&h=80&fit=crop&crop=face'
     },
     {
       name: 'Chief Emeka Okafor',
@@ -217,7 +217,7 @@ const Printing = () => {
       company: 'Okafor Industries',
       content: 'Professional corporate branding solutions that elevated our company image. From business cards to large banners, every piece reflects quality and professionalism. Our clients consistently compliment our branded materials.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face'
     }
   ];
 

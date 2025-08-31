@@ -106,7 +106,7 @@ const RealEstate = () => {
         { icon: FaShieldAlt, text: 'Legal documentation support' }
       ],
       pricing: 'From ₦15M',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop'
     },
     {
       icon: FaDollarSign,
@@ -120,7 +120,7 @@ const RealEstate = () => {
         { icon: FaBullseye, text: 'Strategic planning' }
       ],
       pricing: 'Consultation from ₦50K',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop'
     },
     {
       icon: FaTrophy,
@@ -134,7 +134,7 @@ const RealEstate = () => {
         { icon: FaHeart, text: 'Sustainable development' }
       ],
       pricing: 'Custom project pricing',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&h=400&fit=crop'
     },
     {
       icon: FaKey,
@@ -148,7 +148,7 @@ const RealEstate = () => {
         { icon: FaDollarSign, text: 'Revenue optimization' }
       ],
       pricing: '5-8% of rental income',
-      image: '/api/placeholder/600/400'
+      image: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=600&h=400&fit=crop'
     }
   ];
 
@@ -195,7 +195,7 @@ const RealEstate = () => {
       company: 'Ibrahim Holdings',
       content: 'Uche Properties helped me build a diversified real estate portfolio worth over ₦2 billion. Their market insights and strategic guidance have consistently delivered returns above 25% annually. Exceptional service and professionalism.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face'
     },
     {
       name: 'Mrs. Folake Adebayo',
@@ -203,7 +203,7 @@ const RealEstate = () => {
       company: 'Adebayo Developments',
       content: 'Outstanding property management services for our luxury apartment complex. They increased our occupancy rate to 98% and rental income by 40%. Their attention to detail and tenant relations are exemplary.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face'
     },
     {
       name: 'Chief Emeka Okafor',
@@ -211,7 +211,7 @@ const RealEstate = () => {
       company: 'Okafor Group',
       content: 'Purchased three commercial properties through Uche Properties. Their due diligence process, legal support, and market analysis were thorough. All properties have appreciated significantly and generate excellent rental yields.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face'
     }
   ];
 
