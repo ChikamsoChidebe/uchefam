@@ -394,7 +394,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen overflow-hidden">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden">
       {/* Advanced Hero Section with Carousel */}
       <section ref={heroRef} className="relative min-h-screen md:min-h-[110vh] flex items-center justify-center overflow-hidden pt-4 md:pt-0">
         {/* Dynamic Background */}
