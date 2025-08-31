@@ -396,7 +396,7 @@ const Home = () => {
   return (
     <div className="min-h-screen overflow-hidden">
       {/* Advanced Hero Section with Carousel */}
-      <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section ref={heroRef} className="relative min-h-screen md:min-h-[110vh] flex items-center justify-center overflow-hidden pt-4 md:pt-0">
         {/* Dynamic Background */}
         <div className={`absolute inset-0 bg-gradient-to-br ${heroSlides[currentSlide].background} transition-all duration-1000`}></div>
         <div className="absolute inset-0 bg-black/20"></div>

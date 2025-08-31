@@ -100,7 +100,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 overflow-hidden">
+      <section className="relative py-20 md:py-24 min-h-screen md:min-h-[110vh] bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 overflow-hidden pt-4 md:pt-0">
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0">
           {[...Array(50)].map((_, i) => (
