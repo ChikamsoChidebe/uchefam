@@ -215,7 +215,7 @@ const Logistics = () => {
       company: 'MedCare Pharmaceuticals',
       content: 'Uche Logistics transformed our medical supply distribution. Their temperature-controlled warehousing and reliable delivery network have been crucial for our pharmaceutical operations. We\'ve seen a 40% improvement in delivery efficiency.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=80&h=80&fit=crop&crop=face'
     },
     {
       name: 'Mrs. Funmi Adeleke',
@@ -223,7 +223,7 @@ const Logistics = () => {
       company: 'Adeleke Fashion House',
       content: 'The inventory management system provided by Uche Logistics has revolutionized our fashion retail operations. Real-time stock tracking and automated reordering have reduced our inventory costs by 30% while improving customer satisfaction.',
       rating: 5,
-      image: '/api/placeholder/80/80'
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=80&h=80&fit=crop&crop=face'
     },
     {
       name: 'Engr. Chukwuma Nwosu',
